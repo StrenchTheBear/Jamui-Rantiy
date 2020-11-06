@@ -1,0 +1,38 @@
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.exe
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.deps.json
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.runtimeconfig.json
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.runtimeconfig.dev.json
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.dll
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.pdb
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.Views.dll
+C:\Users\USER\Documents\Jamui Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.Views.pdb
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.csprojAssemblyReference.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.AssemblyInfoInputs.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.AssemblyInfo.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.csproj.CoreCompileInputs.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorAssemblyInfo.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorAssemblyInfo.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.TagHelpers.input.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.TagHelpers.output.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorCoreGenerate.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorTargetAssemblyInfo.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorTargetAssemblyInfo.cs
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.Views.pdb
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\staticwebassets\Jamui Rantiy.StaticWebAssets.Manifest.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\staticwebassets\Jamui Rantiy.StaticWebAssets.xml
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.dll
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.pdb
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.genruntimeconfig.cache
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.csproj.CopyComplete
+C:\Users\USER\Documents\Jamui Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
