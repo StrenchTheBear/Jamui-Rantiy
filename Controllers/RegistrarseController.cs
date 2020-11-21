@@ -12,9 +12,9 @@ namespace Jamui_Rantiy.Controllers
     public class ContactoController : Controller
     {
 
-       private readonly ILogger<ContactoController> _logger;
+       private readonly ILogger<RegistrarseController> _logger;
 
-        public ContactoController(ILogger<ContactoController> logger)
+        public ContactoController(ILogger<RegistrarseController> logger)
         {
             _logger = logger;
         }
