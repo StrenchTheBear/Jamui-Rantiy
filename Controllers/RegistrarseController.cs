@@ -9,12 +9,12 @@ using Jamui_Rantiy.Models;
 
 namespace Jamui_Rantiy.Controllers
 {
-    public class ContactoController : Controller
+    public class RegistrarseController : Controller
     {
 
        private readonly ILogger<RegistrarseController> _logger;
 
-        public ContactoController(ILogger<RegistrarseController> logger)
+        public RegistrarseController(ILogger<RegistrarseController> logger)
         {
             _logger = logger;
         }
@@ -25,12 +25,12 @@ namespace Jamui_Rantiy.Controllers
         }
 
         [HttpPost]
-        public IActionResult Registrar(Contacto objContacto){
+        public IActionResult Registrar(Registrarse objRegistrarse){
             if (ModelState.IsValid)
             {
-                objContacto.Response = "Gracias por registrarse";
+                objRegistrarse.Response = "Gracias por registrarse";
             }
-            return View("index", objContacto);
+            return View("index", objRegistrarse);
         }
 
     }

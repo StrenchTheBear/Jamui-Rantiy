@@ -45,3 +45,34 @@ C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamu
 C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorAssemblyInfo.cs
 C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.dll
 C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.pdb
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.exe
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.deps.json
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.runtimeconfig.json
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.runtimeconfig.dev.json
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.dll
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.pdb
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.Views.dll
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Jamui Rantiy.Views.pdb
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.TagHelpers.input.cache
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.TagHelpers.output.cache
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorCoreGenerate.cache
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Compra\Index.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Login\Index.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Registrarse\Index.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\_ViewImports.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\_ViewStart.cshtml.g.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorTargetAssemblyInfo.cache
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.RazorTargetAssemblyInfo.cs
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.Views.pdb
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\staticwebassets\Jamui Rantiy.StaticWebAssets.Manifest.cache
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\staticwebassets\Jamui Rantiy.StaticWebAssets.xml
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.genruntimeconfig.cache
+C:\Users\patricia\Desktop\USMP-6TO CICLO\PROGRAMACION 1\laboratorio\trabajo\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.csproj.CopyComplete
