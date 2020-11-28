@@ -14435,6 +14435,11 @@
       "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\compra\\Index.cshtml",
+      "TargetPath": "Views\\compra\\Index.cshtml",
+      "FileKind": "mvc"
     }
   ],
   "SerializationFormat": "0.2"
