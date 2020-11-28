@@ -14392,6 +14392,11 @@
   "RootNamespace": "Jamui_Rantiy",
   "Documents": [
     {
+      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Registrarse\\Index.cshtml",
+      "TargetPath": "Views\\Registrarse\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
