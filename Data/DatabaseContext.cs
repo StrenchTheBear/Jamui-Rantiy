@@ -3,14 +3,14 @@ using System.Collections.Generic;
 using System.Text;
 using Microsoft.EntityFrameworkCore;
 
-namespace calculadoramvc.Data
+namespace Jamui_Rantiy.Data
 {
     public class DatabaseContext : DbContext{
-        public LoginController(DbContextOptions<LoginController> options)
+        public DatabaseContext(DbContextOptions<DatabaseContext> options)
         : base(options) {
 
         }
-        public DbSet<calculadoramvc.Models.Contacto> Contactos {get; set; }
+        public DbSet<Jamui_Rantiy.Models.Login> Login {get; set; }
     }
 
 }

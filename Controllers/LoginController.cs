@@ -6,6 +6,8 @@ using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using Jamui_Rantiy.Models;
+using Jamui_Rantiy.Data;
+
 
 namespace Jamui_Rantiy.Controllers
 {
@@ -13,7 +15,7 @@ namespace Jamui_Rantiy.Controllers
     {
      private readonly ILogger<LoginController> _logger;
 
-     private readonly DatabaseContext _context;
+     private readonly DatabaseContext  _context;
 
         public LoginController(ILogger<LoginController> logger, 
             DatabaseContext context)
@@ -22,25 +24,26 @@ namespace Jamui_Rantiy.Controllers
             _context = context;
         }
 
+        
         public IActionResult Index()
         {
             return View();
         }
 
         [HttpPost]
-        public  IActionResult Registrar(Contacto objcontacto) {
+        public  IActionResult Registrar(Login objcontacto) {
 
             if(ModelState.IsValid){
 
                 // grabar base de datos
-                _context.Add(objcontacto);
-                _context.SaveChanges();
+                // _context.Add(objcontacto);
+                // _context.SaveChanges();
 
-                objcontacto.Response = "Gracias estamos en contacto";
+                // objcontacto.Response = "Gracias estamos en contacto";
             }
             return View("index", objcontacto);
         }
     }
 }
         
-    }
+    
