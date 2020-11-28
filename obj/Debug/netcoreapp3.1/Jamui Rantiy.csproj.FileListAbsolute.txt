@@ -115,3 +115,24 @@ D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\obj\Debug\netcore
 D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.pdb
 D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.genruntimeconfig.cache
 D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Jamui Rantiy.csproj.CopyComplete
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Npgsql.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\Nayla\uni\programacion Laboratorio\proyecto xd\Jamui-Rantiy\obj\Debug\netcoreapp3.1\Razor\Views\compra\Index.cshtml.g.cs

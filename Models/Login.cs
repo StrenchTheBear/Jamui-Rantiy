@@ -12,5 +12,7 @@ namespace Jamui_Rantiy.Models
         public String password { get; set; }      
         
     }
+
+    
     
 }
