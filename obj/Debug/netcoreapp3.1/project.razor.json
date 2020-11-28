@@ -1,5 +1,5 @@
 {
-  "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Jamui Rantiy.csproj",
+  "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui Rantiy.csproj",
   "Configuration": {
     "ConfigurationName": "MVC-3.0",
     "LanguageVersion": "3.0",
@@ -14392,53 +14392,53 @@
   "RootNamespace": "Jamui_Rantiy",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Registrarse\\Index.cshtml",
-      "TargetPath": "Views\\Registrarse\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\_ViewStart.cshtml",
-      "TargetPath": "Views\\_ViewStart.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Home\\Index.cshtml",
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Home\\Index.cshtml",
       "TargetPath": "Views\\Home\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\compra\\Index.cshtml",
-      "TargetPath": "Views\\compra\\Index.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\_ViewImports.cshtml",
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Shared\\Error.cshtml",
-      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Registrarse\\Index.cshtml",
+      "TargetPath": "Views\\Registrarse\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Home\\Privacy.cshtml",
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Home\\Privacy.cshtml",
       "TargetPath": "Views\\Home\\Privacy.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Shared\\Error.cshtml",
+      "TargetPath": "Views\\Shared\\Error.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Shared\\_Layout.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "TargetPath": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\USER\\Documents\\Jamui Rantiy\\Views\\Login\\Index.cshtml",
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\Login\\Index.cshtml",
       "TargetPath": "Views\\Login\\Index.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\_ViewStart.cshtml",
+      "TargetPath": "Views\\_ViewStart.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "d:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Views\\compra\\Index.cshtml",
+      "TargetPath": "Views\\compra\\Index.cshtml",
       "FileKind": "mvc"
     }
   ],
