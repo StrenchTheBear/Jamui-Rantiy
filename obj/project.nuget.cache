@@ -1,5 +1,11 @@
 {
   "version": 2,
+<<<<<<< HEAD
+  "dgSpecHash": "DY19s0nLMe2Pcbnb5gz+ByMk+AOtrSXo3n8UTjLC8DAEDI3HoGLLt0wvkG0/t76oKvbEiecrlHRz0Ihz+fNQoA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\USER\\Documents\\Jamui Rantiy\\Jamui Rantiy.csproj",
+  "expectedPackageFiles": [],
+=======
   "dgSpecHash": "A4gJ6EwHniUx6rFgbos7BajEldNXf+YC95Yl7KvjpzFJ7TJhdbwISndESRWEE/YtAdxZLi0Oui14Ccvhsmdwzg==",
   "success": true,
   "projectFilePath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui Rantiy.csproj",
@@ -28,5 +34,6 @@
     "C:\\Users\\Yamill\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.7.1\\system.diagnostics.diagnosticsource.4.7.1.nupkg.sha512",
     "C:\\Users\\Yamill\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.6.0\\system.runtime.compilerservices.unsafe.4.6.0.nupkg.sha512"
   ],
+>>>>>>> c338672d48f77206a9b2d85101a2818b1f662eee
   "logs": []
 }
