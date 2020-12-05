@@ -34,9 +34,9 @@ namespace Jamui_Rantiy
                 options.UseSqlite(
                     Configuration.GetConnectionString("DefaultConnection")));
 
-          //services.AddDbContext<ApplicationDbContext>(options =>
-          //      options.UseNpgsql(
-          //          Configuration.GetConnectionString("PostgressConnection")));
+           services.AddDbContext<ApplicationDbContext>(options =>
+               options.UseNpgsql(
+                    Configuration.GetConnectionString("PostgressConnection")));
 
             services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
                 .AddEntityFrameworkStores<ApplicationDbContext>();
