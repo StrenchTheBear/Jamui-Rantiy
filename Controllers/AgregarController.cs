@@ -14,89 +14,28 @@ namespace Jamui_Rantiy.Controllers
     public class AgregarController : Controller
     {
         private readonly ILogger<AgregarController> _logger;
-         private readonly ApplicationDbContext _context;
+      
 
 
-       public AgregarController(ILogger<AgregarController> logger,
-            ApplicationDbContext context)
+       public AgregarController(ILogger<AgregarController> logger)
         {
             _logger = logger;
-            _context = context;
+     
         }
         public IActionResult Index()
         {
-            var listContactos=_context.agregar.ToList();
-            return View(listContactos);
+         return View();
         }
-
-        public IActionResult Create()
+         public IActionResult Privacy()
         {
             return View();
         }
 
-         [HttpPost]
-        public IActionResult Registrar(Agregar objAgregar){
-            
-            if (ModelState.IsValid)
-            {
-                _context.Add(objAgregar);
-                _context.SaveChanges();
-                objAgregar.Response = "¡Producto agregado exitosamente!";
-            }
-            return View(objAgregar);
-        }
-
-        // GET: Contacto/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
         {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var contacto = await _context.agregar.FindAsync(id);
-            if (contacto == null)
-            {
-                return NotFound();
-            }
-            return View(contacto);
-        }
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Message,Number")] Agregar agrecontacto)
-        {
-            if (id != agrecontacto.ID)
-            {
-                return NotFound();
-            }
-
-            if (ModelState.IsValid)
-            {
-                try
-                {
-                    _context.Update(agrecontacto);
-                    await _context.SaveChangesAsync();
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    return NotFound();
-                    
-                }
-                return RedirectToAction(nameof(Index));
-            }
-            return View(agrecontacto);
         }
-        
-
-        // GET: http://localhost:5000/Contacto/Delete/6 MUESTRA Contacto
-        public IActionResult Delete(int? id)
-        {
-            var contacto = _context.agregar.Find(id);
-            _context.agregar.Remove(contacto);
-            _context.SaveChanges();
-            return RedirectToAction(nameof(Index));
-        }
-
     }
 }
