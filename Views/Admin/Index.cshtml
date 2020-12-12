@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <title>SHOP</title>
+  <title>Tienda</title>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
@@ -12,7 +12,20 @@
  
 </head>
 <body>
-
+<header>
+  <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3" style="background-color: #E7D0AE!important;">
+    <div class="container">               
+         <ul class="navbar-nav flex-grow-1">
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Hombres">Hombres</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-dark" asp-area="" asp-controller="Admin" asp-action="Mujeres">Mujeres</a>
+            </li>                         
+          </ul>      
+    </div>
+  </nav>
+</header>
 <div class="container mt-3">
 
   <div id="myCarousel" class="carousel slide">
@@ -219,6 +232,7 @@
        
 <script>
 $(document).ready(function(){
+
   $("#myCarousel").carousel({interval: 1500});
         
   $(".item1").click(function(){
