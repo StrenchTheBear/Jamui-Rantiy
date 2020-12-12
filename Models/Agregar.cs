@@ -4,19 +4,21 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Jamui_Rantiy.Models
 {
-    [Table("t_agregar")]
+    [Table("")]
     public class Agregar
     {
 
         [Required(ErrorMessage = "Por favor ingrese una descripción")]
         [Display(Name="Descripción")]
+        [Column("Message")]
 
         public String Message { get; set; }
 
         [Required(ErrorMessage = "Por favor ingrese un precio")]
         [Display(Name="Precio")]
+        [Column("Precio")]
       
-        public String  Number { get; set; }
+        public float  Precio { get; set; }
 
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id")]

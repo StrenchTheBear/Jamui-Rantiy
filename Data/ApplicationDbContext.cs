@@ -14,6 +14,6 @@ namespace Jamui_Rantiy.Data
         }
 
         public DbSet<Jamui_Rantiy.Models.Agregar> agregar { get; set; }
-        public DbSet<Jamui_Rantiy.Models.Producto> Productos { get; set; }
+        public DbSet<Jamui_Rantiy.Models.Editar> Editar { get; set; }
     }
 }

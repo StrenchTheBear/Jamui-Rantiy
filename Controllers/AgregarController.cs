@@ -14,17 +14,20 @@ namespace Jamui_Rantiy.Controllers
     public class AgregarController : Controller
     {
         private readonly ILogger<AgregarController> _logger;
+         private readonly ApplicationDbContext _context;
       
-
-
-       public AgregarController(ILogger<AgregarController> logger)
+       public AgregarController(ILogger<AgregarController> logger,
+            ApplicationDbContext context)
         {
             _logger = logger;
+            
+            _context = context;
      
         }
         public IActionResult Index()
         {
-         return View();
+        var listProductos=_context.agregar.ToList();
+            return View(listProductos);
         }
          public IActionResult Privacy()
         {
