@@ -10,8 +10,9 @@ namespace Jamui_Rantiy.Data
     {
         public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options)
             : base(options)
-        {
-        }
+        {}
+
+          public DbSet<Jamui_Rantiy.Models.Editar> Productos { get; set; }
 
     }
 }
