@@ -1692,30 +1692,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\fduarte\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\Yamill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\fduarte\\Documents\\Personal\\USMP\\FIA\\Programacion I\\20202\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "projectUniqueName": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
       "projectName": "Jamui-Rantiy",
-      "projectPath": "C:\\Users\\fduarte\\Documents\\Personal\\USMP\\FIA\\Programacion I\\20202\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
-      "packagesPath": "C:\\Users\\fduarte\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\fduarte\\Documents\\Personal\\USMP\\FIA\\Programacion I\\20202\\Jamui-Rantiy\\obj\\",
+      "projectPath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "packagesPath": "C:\\Users\\Yamill\\.nuget\\packages\\",
+      "outputPath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\fduarte\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Yamill\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
