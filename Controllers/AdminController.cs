@@ -23,6 +23,16 @@ namespace Jamui_Rantiy.Controllers
             return View();
         }
 
+         public IActionResult Hombre ()
+        {
+            return View();
+        }
+
+         public IActionResult Mujer()
+        {
+            return View();
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
