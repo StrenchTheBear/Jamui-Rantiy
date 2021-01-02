@@ -1692,19 +1692,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\patricia\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\AppJamui\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "projectUniqueName": "C:\\Users\\patricia\\Desktop\\USMP-6TO CICLO\\PROGRAMACION 1\\laboratorio\\trabajo\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
       "projectName": "Jamui-Rantiy",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\AppJamui\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\AppJamui\\Jamui-Rantiy\\obj\\",
+      "projectPath": "C:\\Users\\patricia\\Desktop\\USMP-6TO CICLO\\PROGRAMACION 1\\laboratorio\\trabajo\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "packagesPath": "C:\\Users\\patricia\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\patricia\\Desktop\\USMP-6TO CICLO\\PROGRAMACION 1\\laboratorio\\trabajo\\Jamui-Rantiy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\patricia\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
