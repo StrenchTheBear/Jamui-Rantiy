@@ -9,11 +9,11 @@ using Jamui_Rantiy.Models;
 
 namespace Jamui_Rantiy.Controllers
 {
-    public class AdminController : Controller
+    public class ProductoController : Controller
     {
-        private readonly ILogger<AdminController> _logger;
+        private readonly ILogger<ProductoController> _logger;
 
-        public AdminController(ILogger<AdminController> logger)
+        public ProductoController(ILogger<ProductoController> logger)
         {
             _logger = logger;
         }
