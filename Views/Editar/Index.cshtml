@@ -25,6 +25,8 @@
             <th scope="row">
                 <a asp-controller="Orden" 
                   asp-action="AddItem" asp-route-id="@item.ID"> Agregar </a> 
+                  <a asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </th>
             <td>
                 <img src="~/images/@item.ImagenName" alt="@item.Name" width="100" height="150">
