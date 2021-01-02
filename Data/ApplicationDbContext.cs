@@ -14,6 +14,5 @@ namespace Jamui_Rantiy.Data
 
           public DbSet<Jamui_Rantiy.Models.Editar> Productos { get; set; }
           public DbSet<Jamui_Rantiy.Models.Contacto> Contactos { get; set; }
-
     }
 }
