@@ -1,38 +1,72 @@
-using System.Linq;
-using Microsoft.AspNetCore.Mvc;
-using Microsoft.Extensions.Logging;
-using Jamui_Rantiy.Data;
-using System.Threading.Tasks;
-using Jamui_Rantiy.Models;
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
+using System.Linq;
+using System.Threading.Tasks;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
-
+using Jamui_Rantiy.Data;
+using Jamui_Rantiy.Models;
 
 namespace Jamui_Rantiy.Controllers
 {
     public class EditarController : Controller
     {
+        private readonly ApplicationDbContext _context;
 
-       private readonly ILogger<HomeController> _logger;
-       private readonly ApplicationDbContext _context;
-
-
-        public EditarController(ILogger<HomeController> logger,
-            ApplicationDbContext context)
+        public EditarController(ApplicationDbContext context)
         {
-            _logger = logger;
             _context = context;
         }
 
-        public IActionResult Index()
+        // GET: Producto
+        public async Task<IActionResult> Index()
         {
-            var listProductos=_context.Productos.ToList();
-            return View(listProductos);
+            return View(await _context.Productos.ToListAsync());
         }
-public async Task<IActionResult> Edit(int? id)
+
+        // GET: Producto/Details/5
+        public async Task<IActionResult> Details(int? id)
+        {
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var producto = await _context.Productos
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (producto == null)
+            {
+                return NotFound();
+            }
+
+            return View(producto);
+        }
+
+        // GET: Producto/Create
+        public IActionResult Create()
+        {
+            return View();
+        }
+
+        // POST: Producto/Create
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
+        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> Create([Bind("ID,Name,ImagenName,Price")] Editar producto)
+        {
+            if (ModelState.IsValid)
+            {
+                _context.Add(producto);
+                await _context.SaveChangesAsync();
+                return RedirectToAction(nameof(Index));
+            }
+            return View(producto);
+        }
+
+        // GET: Producto/Edit/5
+        public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
             {
@@ -46,10 +80,13 @@ public async Task<IActionResult> Edit(int? id)
             }
             return View(producto);
         }
-        
+
+        // POST: Producto/Edit/5
+        // To protect from overposting attacks, enable the specific properties you want to bind to, for 
+        // more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,image_name,price")] Producto producto)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,ImagenName,Price")] Editar producto)
         {
             if (id != producto.ID)
             {
@@ -65,24 +102,52 @@ public async Task<IActionResult> Edit(int? id)
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    return NotFound();
-                    
+                    if (!ProductoExists(producto.ID))
+                    {
+                        return NotFound();
+                    }
+                    else
+                    {
+                        throw;
+                    }
                 }
                 return RedirectToAction(nameof(Index));
             }
             return View(producto);
         }
-        
 
-        // GET: http://localhost:5000/Contacto/Delete/6 MUESTRA Contacto
-        public IActionResult Delete(int? id)
+        // GET: Producto/Delete/5
+        public async Task<IActionResult> Delete(int? id)
         {
-            var producto = _context.Productos.Find(id);
+            if (id == null)
+            {
+                return NotFound();
+            }
+
+            var producto = await _context.Productos
+                .FirstOrDefaultAsync(m => m.ID == id);
+            if (producto == null)
+            {
+                return NotFound();
+            }
+
+            return View(producto);
+        }
+
+        // POST: Producto/Delete/5
+        [HttpPost, ActionName("Delete")]
+        [ValidateAntiForgeryToken]
+        public async Task<IActionResult> DeleteConfirmed(int id)
+        {
+            var producto = await _context.Productos.FindAsync(id);
             _context.Productos.Remove(producto);
-            _context.SaveChanges();
+            await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-
+        private bool ProductoExists(int id)
+        {
+            return _context.Productos.Any(e => e.ID == id);
+        }
     }
 }
