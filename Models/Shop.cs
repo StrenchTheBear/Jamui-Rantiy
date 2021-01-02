@@ -5,7 +5,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Jamui_Rantiy.Models
 {
     
-    public class Contacto
+    public class Shop
     {
 
 
