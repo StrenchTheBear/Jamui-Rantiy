@@ -3,7 +3,7 @@
 
 @{
     ViewData["Title"] = "Contacto";
-    Contacto contacto = @Model.contacto;
+    User contacto = @Model.contacto;
 }
 
 <div class="row">
@@ -20,7 +20,7 @@
              <div class="form-group">
                 Producto
                 <select name="cars" id="cars">
-                @foreach (Producto producto in Model.producto)
+                @foreach (Editar producto in Model.producto)
                 {
                    <option value="@producto.ID">@producto.Name</option>
                 }
