@@ -13,7 +13,7 @@ using System.Dynamic;
 
 namespace Jamui_Rantiy.Controllers
 {
-    public class ContactoController : Controller
+   public class ContactoController : Controller
     {
 
        private readonly ILogger<ContactoController> _logger;
