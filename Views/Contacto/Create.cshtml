@@ -3,7 +3,7 @@
 
 @{
     ViewData["Title"] = "Contacto";
-    Contacto contacto= @Model.contacto;
+    Contacto contacto = @Model.contacto;
 }
 
 <div class="row">
@@ -17,7 +17,7 @@
                 <span asp-validation-for="@contacto.Name" class="text-danger"></span>
             </div>    
 
-            <div class="form-group">
+            @* <div class="form-group">
                 Producto
                 <select name="cars" id="cars">
                 @foreach (Producto producto in Model.productos)
@@ -26,7 +26,7 @@
                 }
                 </select>
 
-            </div>    
+            </div>     *@
 
 
             <div class="form-group">

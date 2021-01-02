@@ -1692,19 +1692,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\patricia\\.nuget\\packages\\": {}
+    "C:\\Users\\Yamill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\patricia\\Desktop\\USMP-6TO CICLO\\PROGRAMACION 1\\laboratorio\\trabajo\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "projectUniqueName": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
       "projectName": "Jamui-Rantiy",
-      "projectPath": "C:\\Users\\patricia\\Desktop\\USMP-6TO CICLO\\PROGRAMACION 1\\laboratorio\\trabajo\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
-      "packagesPath": "C:\\Users\\patricia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\patricia\\Desktop\\USMP-6TO CICLO\\PROGRAMACION 1\\laboratorio\\trabajo\\Jamui-Rantiy\\obj\\",
+      "projectPath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "packagesPath": "C:\\Users\\Yamill\\.nuget\\packages\\",
+      "outputPath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\patricia\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Yamill\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
