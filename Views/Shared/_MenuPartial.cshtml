@@ -8,18 +8,20 @@
     <li class="nav-item">
         <a class="nav-link text-dark" asp-area="" asp-controller="Producto" asp-action="Index">Productos</a>
     </li>
+    @if(User.Identity.Name == "fduartej@gmail.com" ){
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index"> Usuarios</a>
+        </li>
 
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="" asp-controller="User" asp-action="Index"> Usuarios</a>
-    </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-controller="Agregar" asp-action="Index">Agregar Prenda</a>
+        </li>
 
-     <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-controller="Agregar" asp-action="Index">Agregar Prenda</a>
-    </li>
+        <li class="nav-item">
+            <a class="nav-link text-dark" asp-area="Identity" asp-controller="Editar" asp-action="Index">Editar Prenda</a>
+        </li>
+    }
 
-    <li class="nav-item">
-        <a class="nav-link text-dark" asp-area="Identity" asp-controller="Editar" asp-action="Index">Editar Prenda</a>
-    </li>
 }
 else
 {
