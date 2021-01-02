@@ -72,14 +72,17 @@ public async Task<IActionResult> Edit(int? id)
             }
             return View(producto);
         }
-    
+        
+
+        // GET: http://localhost:5000/Contacto/Delete/6 MUESTRA Contacto
         public IActionResult Delete(int? id)
         {
-            var contacto = _context.Contactos.Find(id);
+            var producto = _context.Productos.Find(id);
             _context.Productos.Remove(producto);
             _context.SaveChanges();
             return RedirectToAction(nameof(Index));
         }
+
 
     }
 }
