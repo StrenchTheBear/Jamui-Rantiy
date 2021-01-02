@@ -1692,19 +1692,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\LENOVO\\.nuget\\packages\\": {}
+    "C:\\Users\\Yamill\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\LENOVO\\Documents\\AppJamui\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "projectUniqueName": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
       "projectName": "Jamui-Rantiy",
-      "projectPath": "C:\\Users\\LENOVO\\Documents\\AppJamui\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
-      "packagesPath": "C:\\Users\\LENOVO\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\LENOVO\\Documents\\AppJamui\\Jamui-Rantiy\\obj\\",
+      "projectPath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\Jamui-Rantiy.csproj",
+      "packagesPath": "C:\\Users\\Yamill\\.nuget\\packages\\",
+      "outputPath": "D:\\Nayla\\uni\\programacion Laboratorio\\proyecto xd\\Jamui-Rantiy\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\LENOVO\\AppData\\Roaming\\NuGet\\NuGet.Config"
+        "C:\\Users\\Yamill\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
