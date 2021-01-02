@@ -35,11 +35,11 @@ namespace Jamui_Rantiy.Controllers
 
         public IActionResult Create()
         {
-            var listProductos=_context.Productos.ToList();
+            // var listProductos=_context.Productos.ToList();
             Contacto contacto = new Contacto();
             dynamic model = new ExpandoObject();
             model.contacto = contacto;
-            model.productos = listProductos;
+            // model.productos = listProductos;
             return View(model);
         }
 
