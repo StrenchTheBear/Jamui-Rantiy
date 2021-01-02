@@ -1,4 +1,3 @@
-
 using System;
 using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
@@ -6,9 +5,10 @@ using System.ComponentModel.DataAnnotations.Schema;
 namespace Jamui_Rantiy.Models
 {
     [Table("t_contactoUser")]
-    public class Contacto
+    public class User
     {
-         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
+
+        [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         [Column("id")]
         public int ID { get; set; }
 
@@ -42,5 +42,6 @@ namespace Jamui_Rantiy.Models
 
         [NotMapped]
         public String Response { get; set; }
+
     }
 }
