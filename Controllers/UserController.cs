@@ -13,14 +13,14 @@ using System.Dynamic;
 
 namespace Jamui_Rantiy.Controllers
 {
-   public class ContactoController : Controller
+    public class UserController : Controller
     {
 
-       private readonly ILogger<ContactoController> _logger;
+       private readonly ILogger<UserController> _logger;
        private readonly ApplicationDbContext _context;
 
 
-        public ContactoController(ILogger<ContactoController> logger,
+        public UserController(ILogger<UserController> logger,
             ApplicationDbContext context)
         {
             _logger = logger;
@@ -36,7 +36,7 @@ namespace Jamui_Rantiy.Controllers
         public IActionResult Create()
         {
             var listProductos=_context.Productos.ToList();
-            Contacto contacto = new Contacto();
+            User contacto = new User();
             dynamic model = new ExpandoObject();
             model.contacto = contacto;
             model.productos = listProductos;
@@ -45,7 +45,7 @@ namespace Jamui_Rantiy.Controllers
 
         [HttpPost]
         public IActionResult CreateDynamic(dynamic data){
-            Contacto objContacto = new Contacto();
+            User objContacto = new User();
             objContacto.Name =data.Name;
             objContacto.Email =data.Email;
             _context.Add(objContacto);
@@ -55,7 +55,7 @@ namespace Jamui_Rantiy.Controllers
      
 
         [HttpPost]
-        public IActionResult Create(Contacto objContacto){
+        public IActionResult Create(User objContacto){
             if (ModelState.IsValid)
             {
                 _context.Add(objContacto);
@@ -65,7 +65,7 @@ namespace Jamui_Rantiy.Controllers
             return View(objContacto);
         }
 
-        // GET: Contacto/Edit/5
+
         public async Task<IActionResult> Edit(int? id)
         {
             if (id == null)
@@ -83,7 +83,7 @@ namespace Jamui_Rantiy.Controllers
         
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,LastName,Email,Phone")] Contacto contacto)
+        public async Task<IActionResult> Edit(int id, [Bind("ID,Name,LastName,Email,Phone")] User contacto)
         {
             if (id != contacto.ID)
             {

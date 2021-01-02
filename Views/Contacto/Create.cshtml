@@ -1,15 +1,16 @@
+@using Jamui_Rantiy.Models
 @model dynamic 
 
 
 @{
     ViewData["Title"] = "Contacto";
-    Contacto contacto = @Model.contacto;
+    User contacto = @Model.contacto;
 }
 
 <div class="row">
     <div class="col-md-4">  
         <h1 class="display-4">Contacto</h1>
-        <form asp-controller="Contacto" asp-action="Create">
+        <form asp-controller="User" asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
                 <label asp-for="@contacto.Name" class="control-label"></label>
@@ -20,7 +21,7 @@
              <div class="form-group">
                 Producto
                 <select name="cars" id="cars">
-                @foreach (Producto producto in Model.producto)
+                @foreach (Editar producto in Model.producto)
                 {
                    <option value="@producto.ID">@producto.Name</option>
                 }
