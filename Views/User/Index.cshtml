@@ -28,8 +28,8 @@
     {
         <tr>
             <th scope="row">
-                <a style="color:white" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a style="color:white" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <a class="btn btn-outline-light" style="color:white" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a class="btn btn-outline-light" style="color:white" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </th>
             <td>
                 @Html.DisplayFor(modelItem => item.Name)

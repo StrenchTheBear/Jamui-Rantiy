@@ -38,9 +38,9 @@
                 @Html.DisplayFor(modelItem => item.Price)
             </td>
             <td>
-                <a style="color:white" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
-                <a style="color:white" asp-action="Details" asp-route-id="@item.ID">Details</a> |
-                <a style="color:white" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
+                <a class="btn btn-outline-light" style="color:white" asp-action="Edit" asp-route-id="@item.ID">Edit</a> |
+                <a class="btn btn-outline-light" style="color:white" asp-action="Details" asp-route-id="@item.ID">Details</a> |
+                <a class="btn btn-outline-light" style="color:white" asp-action="Delete" asp-route-id="@item.ID">Delete</a>
             </td>
         </tr>
 }
