@@ -74,5 +74,6 @@ body {
   background-size: cover;
   width: 100%;
   height: auto;
+  background-position: center;
   background-attachment: fixed;
 }
