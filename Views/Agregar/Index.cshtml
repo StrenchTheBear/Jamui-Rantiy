@@ -4,31 +4,31 @@
     ViewData["Title"] = "Agregar";
 }
 
-<div class="row">
+<div class="row"style="background-color: #4F4C4C!important;">
     <div class="col-md-4">  
-        <h1 class="display-4">Agregar</h1>
+        <h1 class="display-4" style="color:white" >Agregar</h1>
         <form asp-controller="Agregar" asp-action="Registrar" >
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-group">
-                <label asp-for="Message" class="control-label"></label>
+                <label style="color:white" asp-for="Message" class="control-label"></label>
                 <textarea asp-for="Message" class="form-control"></textarea>
                 <span asp-validation-for="Message" class="text-danger"></span>
             </div>  
             <div class="form-group">
-                <label asp-for="img" class="control-label"></label>
+                <label style="color:white" asp-for="img" class="control-label"></label>
                 <textarea asp-for="img" class="form-control"></textarea>
                 <span asp-validation-for="img" class="text-danger"></span>
             </div>   
             <div class="form-group">
-                <label asp-for="Number" class="control-label"></label>
+                <label  style="color:white" asp-for="Number" class="control-label"></label>
                 <input asp-for="Number" class="form-control" />
                  <span asp-validation-for="Number" class="text-danger"></span>
             </div> 
           
            
             <div class="form-group">
-                 <button type="submit" class="btn btn-dark">Registrar</button> 
+                 <button type="submit" class="btn btn-light">Registrar</button> 
             </div>                
 
         </form>
